@@ -42,7 +42,7 @@ function intentar(){
     ROW.className = 'row';
     const INTENTO = leerIntento();
     if (INTENTO === palabra){
-        terminar("<p>GANASTE!</p>");
+        terminar("GANASTE!");
         return;
     }
     for (let i in palabra){
@@ -66,7 +66,7 @@ function intentar(){
         intentos--;
         INTENTOS.innerHTML=intentos;
         if (intentos==0){
-            terminar("<p>PERDISTE!</p>");
+            terminar("PERDISTE!");
         }
 }
 

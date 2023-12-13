@@ -30,8 +30,6 @@
   }
      
   #guess-input {
-    /*display: block;
-    margin: 0 5px 20px;*/
     margin-right: 5px;
     padding: 10px;
     font-size: 18px;
@@ -41,8 +39,6 @@
   }
      
   button {
-    /*display: block;
-    margin: 0 auto;*/
     font-family: 'Press Start 2P', sans-serif;
     padding: 10px 10px;
     font-size: 15px;
@@ -125,7 +121,7 @@
   }
 
   #guesses{
-    font-size: medium;
+    font-size:large;
     text-align: center;
   }
 
